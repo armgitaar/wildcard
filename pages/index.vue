@@ -23,10 +23,9 @@ export default {
     }
   },
   mounted() {
-    const reg = new RegExp("www|sitename|test|localhost:3000");
+    const reg = new RegExp("leanbranch|com|test|localhost:3000");
     const parts = window.location.host.split(".");
-    console.log(parts)
-    this.subdomain = reg.test(parts[0]) ? parts[0] : "Add a subdomain 😜";
+    this.subdomain = reg.test(parts[0]) ? "Add a subdomain 😜" : parts[0];
   }
 }
 </script>
