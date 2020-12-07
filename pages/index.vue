@@ -2,7 +2,7 @@
   <div class="container w-full top-0">
     <div class="w-full items-center text-center align-center">
       <div class="py-8 text-6xl font-bold text-pink-500">
-        Wildcard subdomains are here.
+        Wildcard subdomains are here!
       </div>
       <iframe src="https://giphy.com/embed/AuwBPJztsEWkw" class="mx-auto" width="480" height="402" frameBorder="0" allowFullScreen></iframe>
       <div class="pt-8 font-semibold text-pink-500">
